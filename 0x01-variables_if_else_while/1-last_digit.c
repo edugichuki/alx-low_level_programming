@@ -16,8 +16,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* my code begins here */
-	
 	/* Finding the remainder of the random number n by dividing by 10 */
 	lastDigit = abs(n) % 10;
 
