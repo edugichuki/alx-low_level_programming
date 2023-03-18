@@ -19,7 +19,7 @@ int main(void)
 	/* my code begins here */
 	
 	/* Finding the remainder of the random number n by dividing by 10 */
-	lastDigit = n % 10;
+	lastDigit = abs(n) % 10;
 
 	printf("Last digit of %d is: ", n);
 	if (lastDigit > 5)
